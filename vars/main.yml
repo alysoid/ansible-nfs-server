@@ -1,0 +1,2 @@
+---
+nfs_exports_filename: "{{ item.path[1:] | replace('/', '-') }}.exports"
